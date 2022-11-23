@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 10vh;
+}
+
+.title {
+    background-image: url(Pic/BackBook.jpg);
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+    padding-top: 5vh;
+}
+
+.newBook {
+    text-align: center;
+    background-color: rgb(219, 212, 212);
+}
+
+.newBook button {
+    width: 10vh;
+    height: 5vh;
+    margin-top: 3vh;
+    border-radius: 3vh;
+    background-color: rgb(136, 136, 252);
+}
+
+.newBook button:hover {
+    background-color: wheat;
+}
+
+.popup_form {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.form_cont {
+    background-color:rgb(219, 212, 212);
+    padding: 20px;
+    border: 1px solid black;
+    width: 25vh;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin: 15px;
+    
+}
+
+.info {
+    list-style: none;
+}
+
+.info li {
+    width: 10%;
+    background-color: rgb(148, 202, 164);
+    font-family: cursive;
+    margin-top: 5px;
+    width: 250px;
+    border-radius: 18px;
+    
+}
+
+.info button {
+    margin-left: 75px;
+    margin-bottom: 10px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: bisque;
+}
+
+.info select {
+    margin-left: 75px;
+    width: 100px;
+    text-align: center;
+}
